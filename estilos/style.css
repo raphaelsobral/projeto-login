@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --verde-claro: #7EBEA4;
+    --lilás: #8C7EBF;
+    --verde: #194234;
+    --roxo: #251942;
+}
+
+body, html, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--verde-claro);
+}
+
+#login {
+    background-color: white;
+    width: 280px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.542);
+}
+
+#img {
+    background: var(--lilás) url(../imagens/folhas-small.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+#form {
+    padding: 10px;
+}
