@@ -12,18 +12,18 @@
     --roxo: #251942;
 }
 
-body, html, main {
+body, html {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background-color: var(--verde-claro);
+    background-color: var(--verde);
 }
 
 #login {
     background-color: white;
-    width: 280px;
+    width: 300px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
@@ -31,7 +31,7 @@ body, html, main {
 }
 
 #img {
-    background: var(--lilás) url(../imagens/folhas-small.jpg);
+    background: var(--lilás) url(../imagens/pexels-aditya-aiyar-615049-1407305.jpg);
     background-size: cover;
     height: 200px;
 }
