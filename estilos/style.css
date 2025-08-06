@@ -50,7 +50,7 @@ body, html {
     margin: 8px 0;
     background-color: rgba(128, 128, 128, 0.208);
     padding: 10px 5px;
-    border-radius: 5px;
+    border-radius: 8px; /* 5 */
     align-items: center;
 }
 
@@ -59,12 +59,12 @@ body, html {
 }
 
 .campo input, span{
-    margin-right: 10px ;
+    margin: 0 5px;
 }
 
 .campo input {
     padding: 5px;
-    border-radius: 8px;
+    border-radius: 4px; /* 8 */
     border: none;
     outline: 1px solid rgb(31, 31, 31);
     width: 100%;
